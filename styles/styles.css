@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
     --primary-color: #6EE7B7;
@@ -8,7 +9,8 @@
   
   body {
     /* font-family: "Cutive Mono", monospace; */
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Slab', serif; */
     font-size: 1.3rem;
     margin: 0px;
     background: white;
@@ -32,6 +34,7 @@
   .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
   }
   
   /** links **/
@@ -49,7 +52,7 @@
     display: block;
     max-width: 170px;
     margin: 1rem 1rem 1rem 0rem;
-    font-size: 17px;
+    font-size: 19.5px;
   }
   
   .link-secondary {
@@ -59,7 +62,7 @@
     display: block;
     max-width: 170px;
     margin: 1rem 1rem 1rem 0rem;
-    font-size: 17px;
+    font-size: 19.5px;
   }
     
   /** lists **/
@@ -71,7 +74,7 @@
   
   .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
   }
   
   /** navigation **/
@@ -85,6 +88,9 @@
   
   .navigation .nav-brand {
     font-weight: bold;
+    padding-top: .5rem;
+    padding-left: 1.5rem;
+    font-size: x-large;
     color: white;
   }
   
@@ -120,7 +126,7 @@
     color: var(--dark-gray);
   }
   
-  .hero .hero-heading .heading-inverted {
+.heading-inverted {
     color: var(--primary-color);
   }
   
@@ -142,7 +148,7 @@
   
   .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1.15rem;
@@ -154,8 +160,9 @@
   }
   
   .footer .footer-header {
+    padding: 1rem 0rem 0.8rem 0rem;
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
   }
   
   .footer ul {
