@@ -74,8 +74,22 @@
   
   .list-item-inline {
     display: inline;
-    padding: 0rem 1rem;
+    padding-left: 1.5rem;
   }
+
+  @media only screen and (max-width: 550px) {
+    .navigation .list-item-inline {
+      padding-left: 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .navigation .list-item-inline {
+      display:block;
+        }
+  }
+  
+  
   
   /** navigation **/
   
